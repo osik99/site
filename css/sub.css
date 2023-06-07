@@ -1,0 +1,73 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: "NanumGothic";
+    src: url(../webfont/NanumGothic.eot);
+    /* src: url(../webfont/NanumGothic.woff); */
+}
+
+@font-face {
+    font-family: "NanumGothic";
+    /* src: url(../webfont/NanumGothic.eot); */
+    src: url(../webfont/NanumGothic.woff);
+}
+
+body {
+    font-family: "NanumGothic", "나눔고딕", "맑은고딕";
+    background: url(../images/s_images/bodybg1.png) center center;
+    height: 100%;
+    background-size:100%;
+    line-height: 1;
+    background-color: rgb(44, 44, 44);
+    text-transform: uppercase;
+    color: white;
+}
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+
+}
+
+li,
+ul {
+    list-style: none;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+img {
+    vertical-align: top;
+}
+
+table{
+    border-collapse: collapse;
+    border-spacing:0 ;
+}
+
+input{
+    border: 2px solid  rgb(44, 44, 44);
+    color: #666;
+    background: white;
+
+}
+
+input::placeholder{
+    color:  rgb(44, 44, 44);
+}
+input::-moz-input-placeholder{
+    color:  rgb(44, 44, 44);
+}
+input::-webkit-input-placeholder{
+    color:  rgb(44, 44, 44);
+}
